@@ -1,6 +1,6 @@
 {
-  "name": "vuedraggable",
-  "version": "4.1.0",
+  "name": "@mistjs/vuedraggable",
+  "version": "1.0.0",
   "description": "draggable component for vue",
   "license": "MIT",
   "main": "dist/vuedraggable.umd.min.js",
@@ -10,6 +10,9 @@
     "url": "https://github.com/SortableJS/Vue.Draggable.git"
   },
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vue-cli-service serve ./example/main.js --open --mode local",
     "build:doc": "vue-cli-service build ./example/main.js --dest docs --mode development",

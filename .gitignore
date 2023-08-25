@@ -10,5 +10,7 @@ test/tmp
 /examples/src
 /examples/libs/
 /coverage
-
+dist
+.idea
+.vscode
 .env.local

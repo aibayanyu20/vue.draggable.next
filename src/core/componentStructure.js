@@ -1,10 +1,10 @@
 // const getHtmlElementFromNode = ({ el }) => el;
 const getHtmlElementFromNode = node => {
   const el =
-      node.el || (Array.isArray(node.children) && node.children[0].el.parentNode);
+    node.el || (Array.isArray(node.children) && node.children[0].el.parentNode);
   if (!el) {
     console.error(
-        "使用 transition-group , 需要在slot中template内至少2层html标签"
+      "使用 transition-group , 需要在slot中template内至少2层html标签"
     );
   }
   return el || {};

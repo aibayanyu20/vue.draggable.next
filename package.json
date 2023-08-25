@@ -96,8 +96,7 @@
     "dist/*.css",
     "dist/*.map",
     "dist/*.js",
-    "types/*",
-    "src/*"
+    "types/*"
   ],
   "module": "dist/vuedraggable.umd.js"
 }
